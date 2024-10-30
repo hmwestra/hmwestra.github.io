@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: ""
 author: Hannah Westra
-email: hannah.westra@gmail.com
+email: hannah.m.westra@gmail.com
 description: >-
   Welcome to my site! Feel free to reach out using my email :)
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -25,10 +25,12 @@ linkedin_username: hannah-westra-17b771106
 
 
 # Build settings
-markdown: kramdown
-theme: minima
+remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-  - jekyll-feed
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-feed
+markdown: kramdown
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

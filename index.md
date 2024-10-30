@@ -9,6 +9,5 @@ author: Hannah Westra
 ---
 
 
-![Hannah Westra](/static/name_font.png)
-Hi, I'm Hannah! I'm a frontend software engineer passionate about producing impactful tech! Feel free to reach out! 
-[resume](/static/Resume24.pdf)
+![Hannah Westra](/assets/name_font.png)
+
