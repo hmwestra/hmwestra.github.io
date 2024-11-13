@@ -4,7 +4,7 @@
 
 layout: home
 title: 
-permalink: /home/
+permalink:
 author: Hannah Westra
 ---
 
