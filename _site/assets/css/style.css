@@ -60,7 +60,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .image-container img { display: block; width: 90%; height: auto; }
 
-.overlay-text { position: absolute; top: 50%; left: 45%; transform: translate(-50%, -50%); color: #000000; padding: 10px 20px; font-size: 20px; text-align: center; }
+.overlay-text { position: absolute; top: 50%; left: 45%; transform: translate(-50%, -50%); color: #000000; padding: 10px 20px; font-size: clamp(0.5rem, 2vw, 1.3rem); text-align: center; }
 
 /** Clearfix */
 .wrapper:after, .footer-col-wrapper:after { content: ""; display: table; clear: both; }

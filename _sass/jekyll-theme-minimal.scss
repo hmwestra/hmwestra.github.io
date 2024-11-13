@@ -165,7 +165,7 @@ pre {
   transform: translate(-50%, -50%); 
   color: #000000; 
   padding: 10px 20px; 
-  font-size: 20px; 
+  font-size: clamp(.5rem, 2vw, 1.3rem);
   text-align: center;
 }
 
