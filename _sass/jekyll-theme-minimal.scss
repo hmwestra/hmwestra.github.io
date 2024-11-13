@@ -13,7 +13,7 @@ dl, dd, ol, ul, figure {
 body {
   font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #111;
-  background-color: #fdfdfd;
+  background-color: #f8f6f4;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -141,6 +141,34 @@ pre {
       max-width: calc(800px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
+
+
+/**
+ * Page content
+ */
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin-top: -25px;
+}
+
+.image-container img {
+  display: block;
+  width: 90%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%; 
+  left: 45%; 
+  transform: translate(-50%, -50%); 
+  color: #000000; 
+  padding: 10px 20px; 
+  font-size: 20px; 
+  text-align: center;
+}
+
 
 /**
  * Clearfix
@@ -307,13 +335,6 @@ table {
     float: none;
     width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2)); } }
-/**
- * Page content
- */
-.intro {
-  margin: 40px;
-}
-
 
 
 /**
