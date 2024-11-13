@@ -131,7 +131,10 @@ pre {
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
-  padding-left: 30px; }
+  padding-left: 30px; 
+  display: flex;
+  min-height: 80vh;
+  flex-direction: column}
   @media screen and (max-width: 800px) {
     .wrapper {
       max-width: -webkit-calc(800px - (30px));
@@ -271,7 +274,7 @@ table {
 .footer-col-wrapper {
   font-size: 15px;
   color: #828282;
-  margin-left: -15px; }
+  margin-left: 30px; }
 
 .footer-col {
   float: left;
